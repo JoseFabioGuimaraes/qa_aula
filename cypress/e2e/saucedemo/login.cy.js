@@ -9,7 +9,7 @@ context('Testes da tela de Login', () => {
         cy.get('[data-test="login-button"]').click();
         cy.get('[data-test="title"]').should('have.text','Products')
                     // ou
-        cy.get('[data-test="title"]').should('contain','Product')
+        //cy.get('[data-test="title"]').should('contain','Product')
 
         
     });
